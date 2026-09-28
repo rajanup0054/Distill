@@ -1,0 +1,7 @@
+gradio>=5.0,<7
+huggingface_hub>=0.30
+youtube-transcript-api>=1.0
+scikit-learn
+numpy
+graphviz
+pypdf

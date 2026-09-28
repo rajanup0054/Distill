@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: rag-studio
+    runtime: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: HF_TOKEN          # optional shared token; leave empty if users bring their own
+        sync: false
+      - key: YT_PROXY_URL      # optional proxy if YouTube blocks Render's IPs
+        sync: false
